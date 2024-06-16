@@ -1,4 +1,4 @@
-package Roman;
+package ArabianRomanCalculate;
 
 import java.util.TreeMap;
 
@@ -19,7 +19,6 @@ import java.util.TreeMap;
         }
 
         public boolean isRoman(String number) {
-            //"V"->'V'
             return romanKeyMap.containsKey(number.charAt(0));
         }
 
